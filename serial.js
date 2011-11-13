@@ -44,6 +44,11 @@ io.sockets.on('connection', function(socket) {
 });
 
 child.exec('ls /dev/tty.usbmodem*', function(err, stdout, strerr) {
+  if (err) {
+    console.log(err.stack);
+    process.exit(1);
+  }
+  
   var usbs = stdout.split('\n');
   if (usbs && usbs.length > 0) {
     startSerial(usbs[0]);
