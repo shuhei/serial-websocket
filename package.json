@@ -1,0 +1,8 @@
+{
+  "name": "serial-websockets",
+  "version": "0.0.1",
+  "dependencies": {
+    "serialport": "0.3.0",
+    "socket.io": "0.8.7"
+  }
+}
