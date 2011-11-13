@@ -2,7 +2,7 @@
 
 An experimentation to connect USB devices like Arduino and web browsers using node.js, serial port and web sockets.
 
-## How tor try
+## How to try
 
 First, set up node.js with nvm if you don't have one.
 
