@@ -6,7 +6,7 @@ var serialport = require('serialport')
   , io = require('socket.io').listen(app)
 ;
 
-// Simple Array Remove inspired John Resig
+// Simple Array Remove inspired by John Resig
 // http://ejohn.org/blog/javascript-array-remove/
 Array.prototype.remove = function(i) {
   var sliced = this.slice(i + 1);
