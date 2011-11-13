@@ -4,7 +4,7 @@ An experimentation to connect USB devices like Arduino and web browsers using no
 
 ## How to try
 
-First, set up node.js with nvm if you don't have one.
+First, set up [node.js](http://nodejs.org/) with [nvm](https://github.com/creationix/nvm) if you don't have one.
 
 Install dependencies.
 
